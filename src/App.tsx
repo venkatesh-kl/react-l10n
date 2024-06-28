@@ -3,7 +3,7 @@ import "./App.css";
 import Meg from "./Meg";
 import { initI18n } from "./utils/i18n";
 
-function App() {
+export default function App() {
   initI18n();
   const i18n = useTranslation();
   return (
@@ -15,5 +15,3 @@ function App() {
     </>
   );
 }
-
-export default App;

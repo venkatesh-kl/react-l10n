@@ -11,7 +11,6 @@ const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
     .readFileSync(path.join(localeDirectory, `${lang}.yml`), "utf-8")
     .toString();
   const translations = yaml.load(file);
-  console.log(`translated ${lang} -> ${JSON.stringify(translations)}`);
   fs.writeFileSync(
     path.join(localeDirectory, `${lang}.ts`),
     `const locale = ${JSON.stringify(translations, null, 2)};

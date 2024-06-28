@@ -5,8 +5,7 @@ import translations from "../locales";
 import { L10nContext } from "./L10nContext";
 
 export const initI18n = () => {
-  const { locale } = useContext(L10nContext);
-  console.log({ locale, translations });
+  const locale = useContext(L10nContext);
   i18n.use(initReactI18next).init({
     resources: {
       en: {
