@@ -1,0 +1,7 @@
+t:
+  welcome_message: "Welcome to React"
+  read_the_docs: "Click on the Vite and React logos to learn more"
+  deep:
+    ocean:
+      fish: "I stay deep in the ocean"
+      meg: "I am popular. I have two movies to my name. I am called MEG"

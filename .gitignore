@@ -1,0 +1,7 @@
+.vscode
+src/locales/*.json
+src/locales/*.js
+src/locales/*.ts
+!src/locales/index.ts
+node_modules
+dist
